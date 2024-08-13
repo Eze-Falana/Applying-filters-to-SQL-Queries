@@ -10,7 +10,7 @@ I detected a potential security issue involving failed login attempts outside of
 
 <img width="628" alt="Screenshot 2024-08-13 at 10 42 14" src="https://github.com/user-attachments/assets/f4b42b70-110b-4e09-bd05-1fca0fb3be68">
 
-This query retrieves records from log_in_attempts where login attempts occurred after 18:00 and were unsuccessful.
+This query retrieves records from **'log_in_attempts;** where login attempts occurred after 18:00 and were unsuccessful.
 
 ## Filter Login Attempts on Specific Dates
 A suspicious event was reported on the 9th of May 2022. To investigate, I needed to filer login activity from 09/05 22 and the preceding day. Here is the SQL query I used:
@@ -22,6 +22,7 @@ This query extracts all login attempts for the dates in question
 ## Identify Login Attempts from Non-Mexican Locations
 Upon reviewing login attempt data, I found potential issues with logins originating from outside Mexico. The following query was used to filter these attempts:
 
+<img width="623" alt="Screenshot 2024-08-13 at 10 48 46" src="https://github.com/user-attachments/assets/a3de9bd1-6001-48a2-b32c-5697e493d7d1">
 
 This retrieves login attempts from countries other than Mexico, where 'MEX' and 'MEXICO' are used to denote Mexico.
 
