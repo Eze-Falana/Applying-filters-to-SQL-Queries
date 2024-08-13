@@ -15,6 +15,7 @@ This query retrieves records from log_in_attempts where login attempts occurred 
 ## Filter Login Attempts on Specific Dates
 A suspicious event was reported on the 9th of May 2022. To investigate, I needed to filer login activity from 09/05 22 and the preceding day. Here is the SQL query I used:
 
+<img width="628" alt="Screenshot 2024-08-13 at 10 44 23" src="https://github.com/user-attachments/assets/bb945ef7-684b-4814-86e8-4c348d54180a">
 
 This query extracts all login attempts for the dates in question
 
